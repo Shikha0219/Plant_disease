@@ -1,0 +1,19 @@
+
+A Python-based AI application integrating machine learning, front-end UI, and cloud backend services for real-time plant disease detection.
+Integration Highlights:
+Layer	Technology Used	Purpose
+Layer	                     Technology Used	                                                  Purpose
+Frontend (UI)	         Streamlit (Python Web Framework)	               User uploads leaf images & views predictions
+Backend AI Model	       TensorFlow CNN (Python)	                    Processes image & predicts disease class
+Cloud Storage	           AWS S3 + Boto3 SDK	                           Stores datasets & trained model for scalable retrieval
+Data Pipeline           OpenCV, NumPy, Pandas (Python)	               Preprocesses & augments input images
+Deployment	            Streamlit App (Local/Cloud)	                    Accessible via browser for multiple users
+[User Upload via Browser]
+        ↓
+[Streamlit Frontend - Python]
+        ↓
+[AI Model Inference - TensorFlow CNN]
+        ↓
+[AWS S3 Storage - Boto3 Integration]
+        ↓
+[Prediction + Treatment Recommendation Output]
