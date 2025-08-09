@@ -17,9 +17,6 @@ Data ingestion → Preprocessing (OpenCV, augmentation) → Model training (CNN)
 Impact: Enabled real-time disease detection without requiring direct API dependencies, simulating agentic AI behavior in agriculture.
 
 Tech Stack: Python, TensorFlow, CNN, AWS S3, Boto3, Streamlit.
-
-
-
 Evidence of Performance Optimization
 Plant Disease Detection System
 Optimization Achieved:
